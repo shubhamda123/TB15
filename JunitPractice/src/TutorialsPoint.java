@@ -11,10 +11,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TutorialsPoint {
 	
 	static WebDriver driver;
-	System.out.println("Shubham git");
+	
 	@BeforeClass
 	public static void operBrowser()
 	{
+		System.out.println("Shubham git");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Downloads\\chrome exe for Selenium\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.tutorialspoint.com/index.htm");
